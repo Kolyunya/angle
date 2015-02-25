@@ -75,9 +75,9 @@ package kolyunya.geometry
 			
 			else if 
 			(
-				( Math.PI > delta && delta > 0 )
+				Math.PI > delta && delta > 0
 					||
-				( 0 > delta && delta > -Math.PI )
+				0 > delta && delta > -Math.PI
 			)
 			{
 				distance = Math.abs(first.radians) + Math.abs(second.radians);
@@ -163,6 +163,12 @@ package kolyunya.geometry
 			var isGreaterThan:Boolean = this.isGreaterThan(angle);
 			var isLessThan:Boolean = ! isGreaterThan;
 			return isLessThan;
+		}
+		
+		public function equals(angle:Angle):Boolean
+		{
+			var equals:Boolean = this.radians == angle.radians;
+			return equals;
 		}
 		
 		private function normalizeDegrees():void
