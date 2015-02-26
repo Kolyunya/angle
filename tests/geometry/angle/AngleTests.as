@@ -2,7 +2,6 @@ package kolyunya.tests.geometry.angle
 {
 	
 	import asunit.framework.TestSuite;
-	import asunit.framework.TestCase;
 	import kolyunya.tests.geometry.angle.AngleNormalizationTests;
 	import kolyunya.tests.geometry.angle.AngleDistanceTests;
 	
