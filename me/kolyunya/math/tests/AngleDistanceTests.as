@@ -1,9 +1,8 @@
-package kolyunya.tests.geometry.angle 
-{
+package me.kolyunya.math.tests {
 	
-	import asunit.framework.TestCase;
+	import org.asunit.framework.TestCase;
 	import asunit.framework.Assert;
-	import kolyunya.geometry.Angle;
+	import me.kolyunya.math.Angle;
 	
 	/**
 	 * ...

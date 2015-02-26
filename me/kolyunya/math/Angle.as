@@ -1,5 +1,4 @@
-package kolyunya.geometry 
-{
+package me.kolyunya.math {
 
 	import flash.geom.Point;
 	

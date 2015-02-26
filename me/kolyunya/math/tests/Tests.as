@@ -1,9 +1,8 @@
-package kolyunya.tests 
-{
+package me.kolyunya.math.tests {
 	
 	import flash.display.Sprite;
 	import asunit.textui.TestRunner;
-	import kolyunya.tests.geometry.angle.AngleTests;
+	import me.kolyunya.math.tests.AngleTests;
 	
 	/**
 	 * ...
