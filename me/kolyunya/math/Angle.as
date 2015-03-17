@@ -3,7 +3,8 @@ package me.kolyunya.math {
 	import flash.geom.Point;
 	
 	/**
-	 * ...
+	 * This class represents a geometric angle and provides methods performing
+	 *	common operations. Angle value is always persisted between -PI and PI.
 	 * @author Kolyunya
 	 */
 	public class Angle 
